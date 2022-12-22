@@ -1,19 +1,19 @@
-###Building the project
+### Building the project
 cd to the go workspace.
 
 `make build`
 
-###Running the application
+### Running the application
 on the same terminal path run 
 
 `./out/cron_parser <cron expression>"`
 
-###Running tests
+### Running tests
 run command 
 
 `make test`
 
-###Project Setup
+### Project Setup
 project is divided into 5 packages and subpackages:
 1. cmd - houses the main func - the entry point of the application
 2. expression_parser - the entry point of the parsing logic. this maps the expression fields to the actual types like minute, hour, month etc. and invokes the respective field parsers
